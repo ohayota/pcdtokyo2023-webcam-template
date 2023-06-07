@@ -5,10 +5,8 @@ var canvas;
 var capture;
 var camImg;
 
-var selectedWorkNum = '0';
+var selectedWorkNum = '1';
 var keyChangedFlag = true;
-
-// MacBookPro2018(15-inch)の場合、カメラ画素数は720p(960*720)
 
 function setup() {
   cnv = createCanvas(dispWidth, dispHeight);
